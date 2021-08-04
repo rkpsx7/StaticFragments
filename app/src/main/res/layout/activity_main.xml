@@ -7,17 +7,17 @@
     android:weightSum="2"
     tools:context=".MainActivity">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frag_1"
         android:name="com.example.staticfragments.FirstFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"></fragment>
+        android:layout_weight="1"/>
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frag_2"
         android:name="com.example.staticfragments.SecondFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"></fragment>
+        android:layout_weight="1"/>
 </LinearLayout>
